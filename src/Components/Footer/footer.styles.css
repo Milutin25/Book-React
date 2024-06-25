@@ -1,0 +1,74 @@
+footer {
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: #333399;
+    border-top: 0.8px solid var(--input-border-color);
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 10%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 8px;
+    max-width: 400px;
+    text-align: center;
+  }
+  #footer-section-two {
+    margin-left: 50px;
+  }
+  
+  .footer-section h3 {
+    font-weight: 900;
+    font-size: 22px;
+    color: var(--primary-text-color);
+    font-family: "Goudy Bookletter 1911", serif;
+    font-style: normal;
+    margin-top: 6px;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    margin: 0;
+    padding: 5px 30px;
+    color: var(--primary-text-color);
+  }
+  .footer-section a {
+    color: inherit;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 0.8px solid var(--input-border-color);
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  
